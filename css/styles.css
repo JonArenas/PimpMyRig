@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* Pimp My Rig - Jonathan Arenas */
+body {
+  font-family: "Lato", Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  color: #000000;
+}
+.page-container {
+  padding: 0px;
+  margin: 0px auto;
+  width: 1152px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+.primary-nav {
+  margin: 0px;
+  padding: 12px;
+  background: #190C80;
+}
+.primary-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.primary-nav ul li {
+  margin: 0px;
+  padding: 0px 30px;
+}
+.primary-nav ul li a {
+  color: #EAE8FF;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.primary-nav ul li a:hover {
+  color: #FFCA00;
+}
+.primary-nav ul li a.current {
+  font-family: "Agbalumo", Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  color: #FFCA00;
+  -webkit-text-stroke: 0.1px #E70400;
+  font-size: 22px;
+  font-weight: bold;
+}
+section {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  padding: 89px 89px;
+  margin: 0px auto;
+}
+.column-container {
+  padding: 0px;
+  margin: 0px;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.column-container p {
+  line-height: 5px;
+}
+.order-column-container {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left-column .right-column {
+  max-width: 446px;
+  flex: 1;
+}
+.order-column-container .left-column .right-column {
+  max-width: 446px;
+  flex: 1;
+}
+.mission p {
+  line-height: 20px;
+}
+figure {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.table-container {
+  margin: 0px;
+  padding: 0px 127px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top table th {
+  color: #190C80;
+  text-transform: uppercase;
+}
+th {
+  font-weight: 900;
+  text-align: left;
+}
+tr {
+  margin: 0px;
+  padding: 0px;
+}
+.rig-performance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rig-specs td {
+  text-align: left;
+}
+label {
+  display: block;
+  color: #190C80;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+input, select, textarea {
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  border: 2px solid #BFBFBF;
+  border-radius: 5px;
+}
+input[type="text"] {
+  width: 100%;
+  height: 20px;
+}
+select {
+  width: 115%;
+  height: 40px;
+}
+.descriptions {
+  width: 446px;
+  padding-bottom: 69px;
+}
+textarea {
+  min-height: 20px;
+  width: 456px;
+  resize: vertical;
+}
+input:hover, select:hover, textarea:hover {
+  border-color: #6A6A6A;
+}
+.submit-request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #389883;
+  background-color: #FFFFFF;
+  border: 2px solid #389883;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  display: inline-block;
+}
+button:hover {
+  color: #FFFFFF;
+  background-color: #389883;
+}
+h1, h2, h3 {
+  color: #190C80;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 79px;
+  padding: 0px;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  text-align: left;
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+hr {
+  height: 27px;
+  background: #190C80;
+}
+p {
+  font-size: 16px;
+}
+footer {
+  color: #EAE8FF;
+  padding: 10px 89px;
+  margin: 0px auto;
+  background: #190C80;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  font-size: 10px;
+}
+.secondary-nav ul {
+  font-size: 20px;
+  list-style-type: none;
+}
+.secondary-nav ul li {
+  display: inline-block
+}
+.secondary-nav ul li a {
+  color: #EAE8FF;
+  text-decoration: none;
+}
+.secondary-nav ul li a:hover {
+  color: #FFCA00;
+}
